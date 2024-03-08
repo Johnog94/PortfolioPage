@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
     <title>Jonathan Griffey - Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js"></script>
+    <script src="./PageAnimation.js" defer></script>
   </head>
   <body>
+    <canvas id="canvas"></canvas>
     <!-- Navigation Bar -->
     <nav>
       <div id="home">
@@ -36,12 +41,12 @@
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="img/profileImage.jpeg" class="profile_image"/>
+        <img src="img/profileImageNoBackground.png" class="profile_image"/>
       </div>
 
       <div>
           <h1>
-            Hi, I'm Jonathan Griffey! <img src="img/png-transparent-hand-waving-wave-emoji-wave-hand-arm-sign-thumbnail.png" width="60px"/>
+            Hi, I'm Jonathan Griffey! <img src="img/WavingHand.png" width="60px"/>
           </h1>
           <p>
             Passionate and driven student software developer currently pursuing a Higher Diploma in Software part time at ATU Galway. I am also a recent graduate of the MSc in Information Systems Management program from NUIG, where I honed my skills and knowledge to allow me to work in both project management and IT recruitment domains from 2019. My academic journey reflects my dedication to learning and personal growth. My experience has not only equipped me with technical prowess but has also nurtured exceptional interpersonal skills, fostering my ability to thrive within collaborative and cross functional team settings. I am excited to leverage my unique blend of academic achievements and practical skills as I continue to grow in my career.
@@ -56,49 +61,49 @@
 
       <div class="all_skills">
         <div class="skill">
-          <img src="img/png-transparent-html-logo-html-web-design-scalable-graphics-world-wide-web-markup-language-html5-icon-hd-miscellaneous-angle-text-thumbnail.png"/>
+          <img src="img/HTML.png"/>
           <h6>HTML</h6>
           <p>3 years experience</p>
         </div>  
 
         <div class="skill">
-          <img src="img/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png"/>
+          <img src="img/javascript.png"/>
           <h6>JavaScript</h6>
           <p>2 years experience</p>
         </div>  
 
         <div class="skill">
-            <img src="img/png-transparent-css3-cascading-style-sheets-logo-html-markup-language-others-miscellaneous-blue-angle-thumbnail.png"/>
+            <img src="img/CSS.png"/>
             <h6>CSS</h6>
             <p>3 years experience</p>
           </div> 
 
         <div class="skill">
-            <img src="img/png-transparent-angularjs-typescript-javascript-vue-js-others-blue-angle-text-thumbnail.png"/>
+            <img src="img/typescript.png"/>
             <h6>Typescript</h6>
             <p>1 years experience</p>
           </div> 
         
         <div class="skill">
-            <img src="img/png-transparent-logo-java-runtime-environment-programming-language-runtime-system-oracle-text-logo-desktop-wallpaper-thumbnail.png"/>
+            <img src="img/java.png"/>
             <h6>Java</h6>
             <p>2 years experience</p>
           </div> 
 
           <div class="skill">
-            <img src="img/png-transparent-learning-python-programming-language-computer-programming-logo-studio-flex-design-blue-angle-text-thumbnail.png"/>
+            <img src="img/python.png"/>
             <h6>Python</h6>
             <p>1 years experience</p>
           </div> 
 
           <div class="skill">
-            <img src="img/png-transparent-angular-red-getting-started-with-angular-rxjs-debugging-progressive-web-apps-singlepage-application-web-application-software-framework-thumbnail.png"/>
+            <img src="img/Angular.png"/>
             <h6>Angular</h6>
             <p>1 years experience</p>
           </div> 
 
           <div class="skill">
-            <img src="img/png-transparent-c-logo-c-programming-language-computer-icons-computer-programming-programming-miscellaneous-blue-trademark-thumbnail.png"/>
+            <img src="img/c-sharp-c-logo-02F17714BA-seeklogo.com.png"/>
             <h6>C#</h6>
             <p>2 years experience</p>
           </div> 
@@ -136,6 +141,30 @@
             <h3>Restaurant POS</h3>
             <ul>
               <li>Created POS system for fictional burger chain in C#</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Sports E-Commerce Store
+            </h3>
+            <ul>
+              <li>Created a mock-up e-commerce store for GAA & sports goods</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Multi-Threaded Indexing API
+            </h3>
+            <ul>
+              <li>Developed a Multi-Threaded Indexing API in Java, indexing words from multiple sources</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Web Page Background Animation
+            </h3>
+            <ul>
+              <li>Developed a web page background animation in use on this page</li>
             </ul>
           </div>
     </div>
